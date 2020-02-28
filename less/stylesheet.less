@@ -1,0 +1,120 @@
+//Variables
+@zodiacblue: #142051;
+@geraldine: #FE7A7C;
+@portgore: #191C48;
+@silver: #C4C4C4;
+@white: white;
+
+
+
+//Typeography
+
+@Poppins: 'Poppins', ;
+
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: @Poppins;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 36px;
+    font-family: @Poppins;
+
+}
+
+.subtitles{
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.body{
+    font-size: 16px;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.btn-txt{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.foot-txd{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+//Buttons
+
+    //Large Buttons
+.active-btn-lg{
+    border-radius: 4px;
+    background-color: @portgore;
+    color: @white;
+    width: 342px;
+    height: 30px;
+}
+
+.hover-btn-lg{
+    .active-btn-lg();
+    color: red;
+}
+
+.inactive-btn-lg{
+    .active-btn-lg();
+    background-color: #7c718d;
+
+}
+
+    //Small Buttons
+.active-btn-sm{
+    border-radius: 4px;
+    background-color: @portgore;
+    color: white;
+    width: 155px;
+    height: 40px;
+}
+
+.hover-btn-sm{
+    .active-btn-sm();
+    color: red;
+}
+
+.inactive-btn-sm{
+    .active-btn-sm();
+    background-color: #7c718d;
+
+}
+
+
+
+
+//Form Elements
+
+.box_shape{
+    background-color: white;
+    border: solid 1px;
+}
+
+.label{
+    .box_shape();
+    border: @portgore;
+}
+
+.success{
+    .box_shape();
+    border: lightgreen;
+}
+
+.error{
+    .box_shape();
+    border: red;
+}
+

@@ -1,0 +1,92 @@
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+.subtitles {
+  font-weight: lighter;
+  font-size: 24px;
+}
+.body {
+  font-size: 16px;
+}
+.label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn-txt {
+  font-weight: bold;
+  font-size: 16px;
+}
+.foot-txd {
+  font-weight: bold;
+  font-size: 12px;
+}
+.active-btn-lg {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 342px;
+  height: 30px;
+}
+.hover-btn-lg {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 342px;
+  height: 30px;
+  color: red;
+}
+.inactive-btn-lg {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 342px;
+  height: 30px;
+  background-color: #7c718d;
+}
+.active-btn-sm {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 155px;
+  height: 40px;
+}
+.hover-btn-sm {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 155px;
+  height: 40px;
+  color: red;
+}
+.inactive-btn-sm {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 155px;
+  height: 40px;
+  background-color: #7c718d;
+}
+.box_shape {
+  background-color: white;
+  border: solid 1px;
+}
+.label {
+  background-color: white;
+  border: solid 1px;
+  border: #191C48;
+}
+.success {
+  background-color: white;
+  border: solid 1px;
+  border: lightgreen;
+}
+.error {
+  background-color: white;
+  border: solid 1px;
+  border: red;
+}
